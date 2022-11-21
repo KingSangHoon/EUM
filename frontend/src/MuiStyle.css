@@ -1,0 +1,259 @@
+.MuiCard-root,
+.MuiButton-root {
+	border-radius: 0;
+}
+
+.MuiCardHeader-root {
+	padding: .2rem;
+	background-color: rgba(31, 45, 61, .05);
+}
+
+.MuiCardHeader-root .MuiTypography-root {
+	font-weight: 400;
+}
+
+.MuiTypography-root,
+.MuiFormLabel-root {
+	font-size: 0.775rem;
+}
+
+.MuiCardContent-root,
+.MuiCardContent-root:last-child {
+	padding: .2rem;
+}
+
+.MuiListSubheader-root, .MuiListItem-root {
+	padding: .1rem .6rem;
+	border: 0;
+	font-size: 0.775rem;
+	line-height: 1.5rem;
+}
+
+.MuiCheckbox-root,
+.MuiRadio-root {
+	padding: .2rem;
+}
+
+.MuiSvgIcon-root {
+	font-size: 1.2rem;
+}
+
+/* Button */
+.MuiButton-sizeSmall {
+	height: 1.65rem;
+	padding: 0.72rem 0.5rem;
+	min-width: 50px;
+}
+
+.MuiButtonGroup-root .MuiButton-outlinedInherit.active {
+	border: 1px solid black;
+	background: black;
+	color: #fff;
+}
+
+/* Input */
+.MuiInputLabel-root {
+	font-size: 0.775rem;
+}
+
+.MuiOutlinedInput-root {
+	font-size: 0.775rem;
+	border-radius: 0;
+	color: #5d636d;
+	background-color: #f9fafc;
+	background-clip: padding-box;
+	padding-right: 5px;
+}
+
+.MuiInputBase-inputSizeSmall {
+	padding: .3rem !important;
+}
+
+.MuiInputBase-sizeSmall.MuiInputBase-multiline {
+	padding: 0;
+}
+
+.MuiInputBase-inputSizeSmall::placeholder {
+	font-size: 0.775rem;
+}
+
+.MuiList-root {
+	padding: 0;
+}
+
+.MuiMenuItem-root {
+	font-size: 0.775rem;
+	min-height: 0px;
+}
+
+/* Search Filter */
+.searchEl.MuiAccordion-root {
+	margin: 0;
+	background: none;
+	box-shadow: none;
+}
+
+.searchEl .MuiAccordionSummary-root {
+	position: absolute;
+	width: 100%;
+	bottom: -1rem;
+	min-height: 1rem;
+}
+
+.searchEl .MuiAccordionDetails-root {
+	padding: .5rem;
+	margin: 0;
+	background: #f0f0f0;
+}
+
+.searchEl .MuiAccordionSummary-expandIconWrapper {
+	position: absolute;
+	display: inline-flex;
+	padding-left: 1.8rem;
+	height: 0;
+	width: 100px;
+	border-bottom: 18px solid #f0f0f0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: none;
+	z-index: 1000;
+}
+
+.searchEl .MuiAccordionSummary-content {
+	margin: 0;
+}
+
+.searchEl .anticon-down svg {
+	position: absolute;
+	top: .2rem;
+}
+
+.searchEl .MuiOutlinedInput-notchedOutline {
+	display: none;
+}
+
+.searchEl .MuiPaper-root {
+	overflow-y: auto;
+	height: 1.64rem !important;
+	min-height: 1.64rem !important;
+	background-color: #f9fafc;
+}
+
+.searchEl .search-btn {
+	margin-left: .1rem;
+	background-color: #1eb7ff;
+	border-radius: 0;
+	color: #fff;
+	font-size: 1rem;
+	height: 26px;
+}
+
+.searchEl .MuiInputBase-inputSizeSmall {
+	padding: .2rem !important;
+}
+
+.MuiFormControlLabel-root {
+	margin-left: -5px;
+}
+
+/* Popup */
+.popupEl .search-btn {
+	margin-left: .1rem;
+	background-color: #1eb7ff;
+	border-radius: 0;
+	color: #fff;
+	font-size: 1rem;
+	height: 26px;
+}
+
+.popupEl .MuiPaper-root {
+	overflow-y: auto;
+	height: auto !important;
+	/* height: 1.65rem !important; */
+	max-height: 4.5rem;
+	min-height: 1.65rem;
+}
+
+.popupEl .search-btn {
+	max-height: 4.5rem;
+	height: auto;
+}
+
+/* Paper, Chip */
+.MuiPaper-root {
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.MuiChip-root {
+	height: auto;
+	min-height: 20px;
+	font-size: 0.775rem;
+	margin-top: 2px;
+	word-break: break-all;
+}
+
+.MuiButtonBase-root.MuiChip-root .MuiChip-deleteIcon {
+	font-size: 17px;
+}
+
+.searchEl .MuiChip-label, .popupEl .MuiChip-label {
+	white-space: normal;
+}
+
+/* Tabs */
+.MuiTabs-root.small {
+	min-height: 0;
+}
+
+.MuiButtonBase-root.MuiTab-root {
+	font-size: 0.8rem;
+}
+
+.MuiTabs-root.small .MuiButtonBase-root.MuiTab-root {
+	font-size: 0.775rem;
+	padding: 8px 16px;
+	min-height: 0;
+}
+
+/* ag-grid */
+.ag-body-viewport .MuiButton-root {
+	padding: .2rem;
+	margin-bottom: 0.2rem;
+	height: 1.1rem;
+	font-size: .75rem;
+}
+
+/* Table */
+Table .thead-light th {
+	color: #8493a5;
+	background-color: #e9ecef;
+	border-color: #fff;
+}
+
+Table .thead-dark th {
+	color: #8493a5;
+	background-color: #DADADA;
+	border-color: #fff;
+}
+
+.table-bordered td {
+	border-right: 1px solid #e9ecef !important;
+}
+
+.table-bordered th {
+	border-right: 1px solid #fff !important;
+}
+
+.MuiTableCell-sizeSmall {
+	padding: .15rem .3rem;
+	font-size: 0.775rem;
+	vertical-align: middle;
+}
+
+.MuiTableCell-root {
+	min-height: calc(1.4em + 0.75rem + 2px);
+	height: auto !important;
+	border-radius: 0;
+	word-break: break-all;
+}
